@@ -1,0 +1,25 @@
+import { Project } from '../models/project.model';
+
+export const PROJECTS: Project[] = [
+  {
+    id: 'medicitas',
+    imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=MediCitas+Panama',
+    categories: ['java-backend', 'sql-db'],
+    tech: ['Java 17', 'JavaFX', 'MySQL', 'MongoDB', 'JDBC'],
+    codeUrl: 'https://github.com/tu-usuario/medicitas-panama',
+  },
+  {
+    id: 'payroll',
+    imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=Payroll+BIT+A+BIT',
+    categories: ['java-backend', 'sql-db'],
+    tech: ['Java', 'PostgreSQL', 'JDBC', 'Swing'],
+    codeUrl: 'https://gitlab.com/tu-usuario/payroll-bit-a-bit',
+  },
+  {
+    id: 'portfolio',
+    imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=Portafolio+Web',
+    categories: ['frontend', 'fullstack'],
+    tech: ['Angular', 'TypeScript', 'SCSS', 'Firebase Hosting'],
+    codeUrl: 'https://github.com/rramses390-sys/myportfolio_programador',
+  },
+];

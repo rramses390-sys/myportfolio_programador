@@ -10,5 +10,32 @@
     "title": "About Me",
     "eyebrow": "Get to know me",
     "bio": "I'm a Software Development student passionate about building systems that solve real problems. I specialize in backend development with Java and relational databases - I write SQL by hand, without ORMs, because I believe understanding the fundamentals matters. I'm looking for my first professional experience where I can contribute from day one and keep growing with a team."
+  },
+  "projects": {
+    "title": "Projects",
+    "eyebrow": "Some of my work",
+    "code": "Code",
+    "demo": "Demo",
+    "filters": {
+      "all": "All",
+      "java-backend": "Java / Backend",
+      "sql-db": "SQL / DB",
+      "frontend": "Frontend",
+      "fullstack": "Fullstack"
+    },
+    "items": {
+      "medicitas": {
+        "title": "MediCitas Panamá",
+        "description": "Academic clinical management and telemedicine system in Java, with JavaFX for the desktop interface, MySQL and MongoDB, and role-based access control."
+      },
+      "payroll": {
+        "title": "Payroll BIT A BIT",
+        "description": "Team-built payroll system with a layered Java architecture, pure JDBC (no ORM) over PostgreSQL, and a Swing desktop interface."
+      },
+      "portfolio": {
+        "title": "Web Portfolio — Angular",
+        "description": "This very portfolio: standalone Angular with signals, dynamic Spanish/English internationalization, and deployment on Firebase Hosting."
+      }
+    }
   }
 }

@@ -2,10 +2,11 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AboutComponent } from './features/about/about.component';
 import { HeroComponent } from './features/hero/hero.component';
+import { ProjectsComponent } from './features/projects/projects.component';
 import { LangToggleComponent } from './shared/lang-toggle/lang-toggle.component';
 
 @Component({
-  imports: [RouterOutlet, HeroComponent, AboutComponent, LangToggleComponent],
+  imports: [RouterOutlet, HeroComponent, AboutComponent, ProjectsComponent, LangToggleComponent],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
