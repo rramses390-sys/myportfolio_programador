@@ -1,0 +1,11 @@
+<section class="about" id="sobre-mi">
+  <header class="about__header">
+    <h2 class="about__title">{{ 'about.title' | translate }}</h2>
+    <p class="about__eyebrow">{{ 'about.eyebrow' | translate }}</p>
+  </header>
+
+  @if (profileService.profile(); as profile) {
+  <p class="about__bio">{{ 'about.bio' | translate }}</p>
+  <a class="btn btn--outline" [href]="profile.cvUrl" download>{{ 'common.downloadCv' | translate }}</a>
+  }
+</section>

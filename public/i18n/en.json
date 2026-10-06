@@ -1,0 +1,14 @@
+{
+  "common": {
+    "downloadCv": "Download CV"
+  },
+  "hero": {
+    "role": "Software Developer · Java & Management Systems",
+    "tagline": "I build robust backend systems with Java - from business logic to the database - and handle the frontend to deliver the complete product."
+  },
+  "about": {
+    "title": "About Me",
+    "eyebrow": "Get to know me",
+    "bio": "I'm a Software Development student passionate about building systems that solve real problems. I specialize in backend development with Java and relational databases - I write SQL by hand, without ORMs, because I believe understanding the fundamentals matters. I'm looking for my first professional experience where I can contribute from day one and keep growing with a team."
+  }
+}

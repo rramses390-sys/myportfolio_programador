@@ -5,11 +5,11 @@
   <img class="hero__avatar" [src]="profile.avatarUrl" [alt]="profile.name" />
 
   <h1 class="hero__name">{{ profile.name }}</h1>
-  <p class="hero__role">{{ profile.role }}</p>
-  <p class="hero__tagline">{{ profile.tagline }}</p>
+  <p class="hero__role">{{ 'hero.role' | translate }}</p>
+  <p class="hero__tagline">{{ 'hero.tagline' | translate }}</p>
 
   <div class="hero__actions">
-    <a class="btn btn--outline" [href]="profile.cvUrl" download>Descargar CV</a>
+    <a class="btn btn--outline" [href]="profile.cvUrl" download>{{ 'common.downloadCv' | translate }}</a>
 
     @for (link of profile.social; track link.url) {
     <a class="btn btn--ghost" [href]="link.url" target="_blank" rel="noopener">

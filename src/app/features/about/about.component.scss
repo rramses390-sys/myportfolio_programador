@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1.5rem;
+
+  &__header {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  &__eyebrow {
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0.5rem 0 0;
+  }
+
+  &__bio {
+    max-width: 760px;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+}
