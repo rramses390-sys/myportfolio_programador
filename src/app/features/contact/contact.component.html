@@ -4,7 +4,53 @@
     <p class="contact__eyebrow">{{ 'contact.eyebrow' | translate }}</p>
   </header>
 
+  <form class="contact-form" [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+    <div class="field">
+      <label for="name">{{ 'contact.form.name' | translate }}</label>
+      <input id="name" type="text" formControlName="name" [placeholder]="'contact.form.namePlaceholder' | translate" />
+      @if (name.invalid && name.touched) {
+      <span class="field__error">{{ 'contact.form.nameError' | translate }}</span>
+      }
+    </div>
+
+    <div class="field">
+      <label for="email">{{ 'contact.form.email' | translate }}</label>
+      <input id="email" type="email" formControlName="email"
+        [placeholder]="'contact.form.emailPlaceholder' | translate" />
+      @if (email.invalid && email.touched) {
+      <span class="field__error">{{ 'contact.form.emailError' | translate }}</span>
+      }
+    </div>
+
+    <div class="field">
+      <label for="subject">{{ 'contact.form.subject' | translate }}</label>
+      <input id="subject" type="text" formControlName="subject"
+        [placeholder]="'contact.form.subjectPlaceholder' | translate" />
+      @if (subject.invalid && subject.touched) {
+      <span class="field__error">{{ 'contact.form.subjectError' | translate }}</span>
+      }
+    </div>
+
+    <div class="field">
+      <label for="message">{{ 'contact.form.message' | translate }}</label>
+      <textarea id="message" rows="5" formControlName="message"
+        [placeholder]="'contact.form.messagePlaceholder' | translate"></textarea>
+      @if (message.invalid && message.touched) {
+      <span class="field__error">{{ 'contact.form.messageError' | translate }}</span>
+      }
+    </div>
+
+    <button type="submit" class="btn btn--outline contact-form__submit">
+      {{ 'contact.form.submit' | translate }}
+    </button>
+
+    @if (submitted()) {
+    <p class="contact-form__success">{{ 'contact.form.success' | translate }}</p>
+    }
+  </form>
+
   @if (profileService.profile(); as profile) {
+  <p class="contact__alt">{{ 'contact.orEmail' | translate }}</p>
   <a class="contact__pill" [href]="'mailto:' + profile.email">
     <span class="contact__pill-icon"><app-icon name="mail" /></span>
     {{ profile.email }}
