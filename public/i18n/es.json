@@ -73,6 +73,22 @@
   "contact": {
     "title": "Ponte en contacto",
     "eyebrow": "Trabajemos juntos.",
-    "emailLabel": "Escríbeme"
+    "orEmail": "O escríbeme directo a mi correo",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "nameError": "Escribe al menos 2 caracteres",
+      "email": "Correo",
+      "emailPlaceholder": "tucorreo@ejemplo.com",
+      "emailError": "Escribe un correo válido",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿De qué quieres hablar?",
+      "subjectError": "Escribe al menos 3 caracteres",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame en qué puedo ayudarte",
+      "messageError": "Escribe al menos 10 caracteres",
+      "submit": "Enviar mensaje",
+      "success": "¡Formulario validado! (el envío real se conecta más adelante)"
+    }
   }
 }
