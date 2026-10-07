@@ -37,5 +37,37 @@
         "description": "Este mismo portafolio: Angular standalone con signals, internacionalización dinámica en español e inglés, y despliegue en Firebase Hosting."
       }
     }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "eyebrow": "Languages & Tools",
+    "categories": {
+      "backend": "Backend",
+      "databases": "Bases de Datos",
+      "frontend-tools": "Frontend & Tools"
+    }
+  },
+  "experience": {
+    "title": "Experiencia & Formación",
+    "eyebrow": "Mi camino hasta aquí",
+    "experienceHeading": "Experiencia",
+    "educationHeading": "Formación",
+    "items": {
+      "toledano": {
+        "badge": "4+ años",
+        "role": "Supervisor Operativo",
+        "description": "Más de 4 años supervisando operaciones y liderando equipos; esa experiencia de liderazgo hoy la aplico al desarrollo de software."
+      },
+      "academic-projects": {
+        "badge": "Académico",
+        "role": "Proyectos académicos (Java)",
+        "description": "Sistemas de nómina y de gestión clínica con arquitectura por capas en Java, JDBC sin ORM y bases de datos relacionales."
+      },
+      "up": {
+        "badge": "En curso",
+        "role": "Ingeniería en Sistemas (en curso)",
+        "description": "Carrera en curso; en paralelo desarrollo proyectos en Java con bases de datos relacionales."
+      }
+    }
   }
 }
