@@ -69,5 +69,10 @@
         "description": "Carrera en curso; en paralelo desarrollo proyectos en Java con bases de datos relacionales."
       }
     }
+  },
+  "contact": {
+    "title": "Ponte en contacto",
+    "eyebrow": "Trabajemos juntos.",
+    "emailLabel": "Escríbeme"
   }
 }

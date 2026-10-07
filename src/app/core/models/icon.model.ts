@@ -10,4 +10,5 @@ export type IconName =
   | 'github'
   | 'editor'
   | 'briefcase'
-  | 'book';
+  | 'book'
+  | 'mail';

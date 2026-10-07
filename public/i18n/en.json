@@ -69,5 +69,10 @@
         "description": "Ongoing degree, while building Java projects with relational databases in parallel."
       }
     }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "eyebrow": "Let's work together",
+    "emailLabel": "Email me"
   }
 }
