@@ -32,7 +32,7 @@
 }
 
 .skill-card {
-  background: #141414;
+  background: var(--card-bg);
   border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
   border-radius: 16px;
   padding: 1.5rem;
@@ -74,7 +74,7 @@
 }
 
 .skill-tile {
-  background: #1c1c1c;
+  background: var(--card-bg-alt);
   border-radius: 10px;
   padding: 0.9rem 0.6rem;
   display: flex;
@@ -90,7 +90,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background: #141414;
+    background: var(--card-bg);
     color: var(--accent);
 
     svg {

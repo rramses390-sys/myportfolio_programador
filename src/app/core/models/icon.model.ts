@@ -12,4 +12,6 @@ export type IconName =
   | 'briefcase'
   | 'book'
   | 'mail'
-  | 'linkedin';
+  | 'linkedin'
+  | 'sun'
+  | 'moon';

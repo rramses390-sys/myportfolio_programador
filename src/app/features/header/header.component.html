@@ -2,8 +2,13 @@
   <div class="header__bar">
     <a class="header__logo" href="#inicio">Ramses</a>
 
-    <button class="header__toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen()"
-      aria-label="Menú">
+    <button
+      class="header__toggle"
+      type="button"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="menuOpen()"
+      aria-label="Menú"
+    >
       <span></span>
       <span></span>
       <span></span>
@@ -11,10 +16,11 @@
 
     <nav class="header__nav" [class.header__nav--open]="menuOpen()">
       @for (link of links; track link.id) {
-      <a [href]="'#' + link.fragment" (click)="closeMenu()">
-        {{ 'nav.' + link.id | translate }}
-      </a>
+        <a [href]="'#' + link.fragment" (click)="closeMenu()">
+          {{ 'nav.' + link.id | translate }}
+        </a>
       }
+      <app-theme-toggle />
       <app-lang-toggle />
     </nav>
   </div>

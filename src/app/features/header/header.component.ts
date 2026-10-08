@@ -1,12 +1,13 @@
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
-import { NAV_LINKS } from '../../core/data/nav-links.data';
 import { LangToggleComponent } from '../../shared/lang-toggle/lang-toggle.component';
+import { ThemeToggleComponent } from '../../shared/theme-toggle/theme-toggle.component';
+import { NAV_LINKS } from '../../core/data/nav-links.data';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [TranslatePipe, LangToggleComponent],
+  imports: [TranslatePipe, LangToggleComponent, ThemeToggleComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',

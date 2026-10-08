@@ -57,7 +57,7 @@
 }
 
 .project-card {
-  background: #141414;
+  background: var(--card-bg);
   border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
   border-radius: 16px;
   overflow: hidden;
