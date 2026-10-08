@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     id: 'medicitas',
     imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=MediCitas+Panama',
     categories: ['java-backend', 'sql-db'],
-    tech: ['Java 17', 'JavaFX', 'MySQL', 'MongoDB', 'JDBC'],
+    tech: ['Java 21', 'JavaFX', 'MySQL', 'MongoDB', 'JDBC'],
     codeUrl: 'https://github.com/tu-usuario/medicitas-panama',
   },
   {
