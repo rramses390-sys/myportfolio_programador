@@ -35,6 +35,10 @@
       "portfolio": {
         "title": "Web Portfolio — Angular",
         "description": "This very portfolio: standalone Angular with signals, dynamic Spanish/English internationalization, and deployment on Firebase Hosting."
+      },
+      "pymecloud": {
+        "title": "PymeCloud",
+        "description": "Management system for micro and small businesses, with a Java Spring Boot backend, PostgreSQL database, and an Angular + Ionic frontend built for web and mobile."
       }
     }
   },

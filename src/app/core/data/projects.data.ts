@@ -22,4 +22,14 @@ export const PROJECTS: Project[] = [
     tech: ['Angular', 'TypeScript', 'SCSS', 'Firebase Hosting'],
     codeUrl: 'https://github.com/rramses390-sys/myportfolio_programador',
   },
+  {
+    id: 'pymecloud',
+    imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=PymeCloud',
+    categories: ['fullstack', 'java-backend', 'frontend'],
+    tech: ['Java 21', 'Spring Boot', 'Angular', 'Ionic', 'PostgreSQL'],
+    repos: [
+      { label: 'Frontend', url: 'https://gitlab.com/rramses390/pymecloud-frontend.git' },
+      { label: 'Backend', url: 'https://gitlab.com/victoralfonsojv/pymecloud-backend.git' },
+    ],
+  },
 ];

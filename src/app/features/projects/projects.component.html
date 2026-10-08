@@ -33,7 +33,11 @@
         </div>
 
         <div class="project-card__links">
-          @if (project.codeUrl) {
+          @if (project.repos) {
+          @for (repo of project.repos; track repo.url) {
+          <a [href]="repo.url" target="_blank" rel="noopener">{{ repo.label }}</a>
+          }
+          } @else if (project.codeUrl) {
           <a [href]="project.codeUrl" target="_blank" rel="noopener">
             {{ 'projects.code' | translate }}
           </a>
