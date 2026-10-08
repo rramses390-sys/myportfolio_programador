@@ -89,7 +89,7 @@
 
   input,
   textarea {
-    background: #141414;
+    background: var(--card-bg);
     border: 1px solid color-mix(in srgb, var(--text-muted) 40%, transparent);
     border-radius: 10px;
     padding: 0.75rem 1rem;
