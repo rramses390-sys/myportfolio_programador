@@ -78,5 +78,12 @@
   "footer": {
     "cta": "Trabajemos Juntos -",
     "rights": "© 2026 todos los derechos reservados."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Sobre MI",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "resume": "Resumen"
   }
 }

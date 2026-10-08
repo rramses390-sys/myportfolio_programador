@@ -78,5 +78,12 @@
   "footer": {
     "cta": "Let's Work Together -",
     "rights": "© 2026 all rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "resume": "Resume"
   }
 }

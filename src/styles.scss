@@ -31,4 +31,16 @@ body {
     border: 1px solid var(--text-muted);
     color: var(--text-primary);
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #inicio,
+  #sobre-mi,
+  #proyectos,
+  #habilidades,
+  #experiencia {
+    scroll-margin-top: 90px;
+  }
 }

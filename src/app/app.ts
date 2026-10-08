@@ -4,14 +4,15 @@ import { AboutComponent } from './features/about/about.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { ExperienceComponent } from './features/experience/experience.component';
 import { FooterComponent } from './features/footer/footer.component';
+import { HeaderComponent } from './features/header/header.component';
 import { HeroComponent } from './features/hero/hero.component';
 import { ProjectsComponent } from './features/projects/projects.component';
 import { SkillsComponent } from './features/skills/skills.component';
-import { LangToggleComponent } from './shared/lang-toggle/lang-toggle.component';
 
 @Component({
   imports: [
     RouterOutlet,
+    HeaderComponent,
     HeroComponent,
     AboutComponent,
     ProjectsComponent,
@@ -19,7 +20,6 @@ import { LangToggleComponent } from './shared/lang-toggle/lang-toggle.component'
     ExperienceComponent,
     ContactComponent,
     FooterComponent,
-    LangToggleComponent,
   ],
   selector: 'app-root',
   styleUrl: './app.scss',
