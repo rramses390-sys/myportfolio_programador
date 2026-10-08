@@ -75,35 +75,8 @@
     }
   },
   "contact": {
-  "title": "Get In Touch",
-  "eyebrow": "Let's work together",
-  "orEmail": "Or email me directly",
-  "form": {
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "nameError": "Enter at least 2 characters",
-    "email": "Email",
-    "emailPlaceholder": "youremail@example.com",
-    "emailError": "Enter a valid email",
-    "subject": "Subject",
-    "subjectPlaceholder": "What's this about?",
-    "subjectError": "Enter at least 3 characters",
-    "message": "Message",
-    "messagePlaceholder": "Tell me how I can help",
-    "messageError": "Enter at least 10 characters",
-    "submit": "Send message",
-    "success": "Form validated! (real sending will be connected later)"
-  }
-}
-  ,
-  "nav": {
-    "home": "Home",
-    "about": "About Me",
-    "projects": "Projects",
-    "skills": "Skills",
-    "resume": "Resume"
-  },
-  "footer": {
-    "rights": "© 2026 All rights reserved."
+    "title": "Get In Touch",
+    "eyebrow": "Let's work together",
+    "emailLabel": "Email me"
   }
 }
