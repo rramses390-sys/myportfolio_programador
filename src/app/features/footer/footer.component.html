@@ -1,0 +1,22 @@
+<footer class="footer">
+  <h2 class="footer__cta">{{ 'footer.cta' | translate }}</h2>
+
+  @if (profileService.profile(); as profile) {
+  <a class="footer__email" [href]="'mailto:' + profile.email">
+    <span class="footer__email-icon"><app-icon name="mail" /></span>
+    {{ profile.email }}
+  </a>
+
+  <div class="footer__divider"></div>
+
+  <div class="footer__social">
+    @for (link of profile.social; track link.url) {
+    <a [href]="link.url" target="_blank" rel="noopener" [attr.aria-label]="link.label">
+      <app-icon [name]="link.icon" />
+    </a>
+    }
+  </div>
+  }
+
+  <p class="footer__rights">{{ 'footer.rights' | translate }}</p>
+</footer>

@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { AboutComponent } from './features/about/about.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { ExperienceComponent } from './features/experience/experience.component';
+import { FooterComponent } from './features/footer/footer.component';
 import { HeroComponent } from './features/hero/hero.component';
 import { ProjectsComponent } from './features/projects/projects.component';
 import { SkillsComponent } from './features/skills/skills.component';
@@ -17,6 +18,7 @@ import { LangToggleComponent } from './shared/lang-toggle/lang-toggle.component'
     SkillsComponent,
     ExperienceComponent,
     ContactComponent,
+    FooterComponent,
     LangToggleComponent,
   ],
   selector: 'app-root',

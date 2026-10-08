@@ -74,5 +74,9 @@
     "title": "Get In Touch",
     "eyebrow": "Let's work together",
     "emailLabel": "Email me"
+  },
+  "footer": {
+    "cta": "Let's Work Together -",
+    "rights": "© 2026 all rights reserved."
   }
 }

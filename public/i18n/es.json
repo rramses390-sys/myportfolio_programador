@@ -74,5 +74,9 @@
     "title": "Ponte en contacto",
     "eyebrow": "Trabajemos juntos.",
     "emailLabel": "Escríbeme"
+  },
+  "footer": {
+    "cta": "Trabajemos Juntos -",
+    "rights": "© 2026 todos los derechos reservados."
   }
 }
