@@ -4,12 +4,12 @@
   },
   "hero": {
     "role": "Desarrollador de Software · Java & Sistemas de Gestión",
-    "tagline": "Construyo sistemas backend robustos con Java - desde la lógica de negocio hasta la base de datos - y domino el frontend para entregar el producto completo."
+    "tagline": "Desarrollador de software fullstack y analista técnico con experiencia en diseño de sistemas, bases de datos y soporte. Enfoque analítico, proactivo y orientado a resultados."
   },
   "about": {
     "title": "Sobre Mí",
     "eyebrow": "Conóceme",
-    "bio": "Soy estudiante de Desarrollo de Software apasionado por construir sistemas que resuelvan problemas reales. Me especializo en backend con Java y bases de datos relacionales - escribo SQL a mano, sin ORMs, porque creo que entender los cimientos importa. Busco mi primera experiencia profesional donde pueda aportar desde el primer día y seguir creciendo en equipo."
+    "bio": "Soy estudiante de Desarrollo de Software apasionado por construir sistemas que resuelvan problemas reales. Me especializo en backend con Java y bases de datos relacionales - escribo SQL a mano, sin ORMs, porque creo que entender los cimientos importa. Busco donde pueda aportar desde el primer día y seguir creciendo en equipo."
   },
   "projects": {
     "title": "Proyectos",
@@ -63,8 +63,8 @@
         "description": "Más de 4 años supervisando operaciones y liderando equipos; esa experiencia de liderazgo hoy la aplico al desarrollo de software."
       },
       "academic-projects": {
-        "badge": "Académico",
-        "role": "Proyectos académicos (Java)",
+        "badge": "Proyectos",
+        "role": "Proyectos (Java)",
         "description": "Sistemas de nómina y de gestión clínica con arquitectura por capas en Java, JDBC sin ORM y bases de datos relacionales."
       },
       "up": {

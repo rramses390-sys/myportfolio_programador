@@ -24,7 +24,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     icon: 'monitor',
     skills: [
       { id: 'angular', icon: 'angular', label: 'Angular' },
-      { id: 'web', icon: 'code', label: 'TypeScript / HTML / CSS' },
+      { id: 'web', icon: 'web', label: 'TypeScript / HTML / CSS' },
       { id: 'git-github', icon: 'github', label: 'Git / GitHub' },
       { id: 'editor', icon: 'editor', label: 'IntelliJ / VS Code' },
     ],

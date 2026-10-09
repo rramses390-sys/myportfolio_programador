@@ -4,12 +4,12 @@
   },
   "hero": {
     "role": "Software Developer · Java & Management Systems",
-    "tagline": "I build robust backend systems with Java - from business logic to the database - and handle the frontend to deliver the complete product."
+    "tagline": "Fullstack software developer and technical analyst with experience in system design, databases, and support. Analytical, proactive, and results-driven."
   },
   "about": {
     "title": "About Me",
     "eyebrow": "Get to know me",
-    "bio": "I'm a Software Development student passionate about building systems that solve real problems. I specialize in backend development with Java and relational databases - I write SQL by hand, without ORMs, because I believe understanding the fundamentals matters. I'm looking for my first professional experience where I can contribute from day one and keep growing with a team."
+    "bio": "I am a Software Development student passionate about building systems that solve real-world problems. I specialize in backend development with Java and relational databases — writing raw SQL without ORMs because I believe understanding the fundamentals matters. I am looking for a place where I can contribute from day one and keep growing as part of a team."
   },
   "projects": {
     "title": "Projects",
@@ -26,19 +26,19 @@
     "items": {
       "medicitas": {
         "title": "MediCitas Panamá",
-        "description": "Academic clinical management and telemedicine system in Java, with JavaFX for the desktop interface, MySQL and MongoDB, and role-based access control."
+        "description": "Academic clinical management and telemedicine system in Java, featuring a JavaFX desktop interface, MySQL and MongoDB databases, and role-based access control."
       },
       "payroll": {
         "title": "Payroll BIT A BIT",
-        "description": "Team-built payroll system with a layered Java architecture, pure JDBC (no ORM) over PostgreSQL, and a Swing desktop interface."
+        "description": "Team-developed payroll system featuring a layered architecture in Java, pure JDBC (no ORM) over PostgreSQL, and a Swing desktop interface."
       },
       "portfolio": {
         "title": "Web Portfolio — Angular",
-        "description": "This very portfolio: standalone Angular with signals, dynamic Spanish/English internationalization, and deployment on Firebase Hosting."
+        "description": "This very portfolio: standalone Angular with signals, dynamic internationalization in Spanish and English, and deployment on Firebase Hosting."
       },
       "pymecloud": {
         "title": "PymeCloud",
-        "description": "Management system for micro and small businesses, with a Java Spring Boot backend, PostgreSQL database, and an Angular + Ionic frontend built for web and mobile."
+        "description": "Management system for micro and small businesses, featuring a Java Spring Boot backend, PostgreSQL database, and an Angular + Ionic frontend app designed for web and mobile."
       }
     }
   },
@@ -53,7 +53,7 @@
   },
   "experience": {
     "title": "Experience & Education",
-    "eyebrow": "My journey so far",
+    "eyebrow": "My path so far",
     "experienceHeading": "Experience",
     "educationHeading": "Education",
     "items": {
@@ -63,20 +63,20 @@
         "description": "Over 4 years supervising operations and leading teams; I now apply that leadership experience to software development."
       },
       "academic-projects": {
-        "badge": "Academic",
-        "role": "Academic Projects (Java)",
-        "description": "Payroll and clinical management systems with layered Java architecture, ORM-free JDBC, and relational databases."
+        "badge": "Projects",
+        "role": "Projects (Java)",
+        "description": "Payroll and clinical management systems built with layered architecture in Java, JDBC without ORM, and relational databases."
       },
       "up": {
         "badge": "In progress",
-        "role": "Systems Engineering (in progress)",
-        "description": "Ongoing degree, while building Java projects with relational databases in parallel."
+        "role": "Systems Engineering (In progress)",
+        "description": "Degree in progress; in parallel, I develop Java projects using relational databases."
       }
     }
   },
   "contact": {
-    "title": "Get In Touch",
-    "eyebrow": "Let's work together",
+    "title": "Get in Touch",
+    "eyebrow": "Let's work together.",
     "emailLabel": "Email me"
   },
   "footer": {

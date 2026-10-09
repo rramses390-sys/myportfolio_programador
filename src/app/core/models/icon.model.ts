@@ -14,4 +14,5 @@ export type IconName =
   | 'mail'
   | 'linkedin'
   | 'sun'
-  | 'moon';
+  | 'moon'
+  | 'web';

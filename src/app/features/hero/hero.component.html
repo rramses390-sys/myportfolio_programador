@@ -1,5 +1,9 @@
 <section class="hero" id="inicio">
-  <div class="hero__background" aria-hidden="true"></div>
+  <div class="hero__background" aria-hidden="true">
+    <span class="blob--a"></span>
+    <span class="blob--b"></span>
+    <span class="blob--c"></span>
+  </div>
 
   @if (profileService.profile(); as profile) {
   <img class="hero__avatar" [src]="profile.avatarUrl" [alt]="profile.name" />
