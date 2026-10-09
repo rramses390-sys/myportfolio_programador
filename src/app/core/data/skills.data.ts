@@ -6,6 +6,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     icon: 'server',
     skills: [
       { id: 'java', icon: 'java', label: 'Java / Spring Boot' },
+      { id: 'python', icon: 'python', label: 'Python' },
       { id: 'rest', icon: 'code', label: 'REST APIs' },
     ],
   },
@@ -13,8 +14,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     id: 'databases',
     icon: 'database',
     skills: [
-      { id: 'mysql', icon: 'database', label: 'MySQL' },
-      { id: 'postgresql', icon: 'database', label: 'PostgreSQL' },
+      { id: 'mysql', icon: 'mysql', label: 'MySQL' },
+      { id: 'postgresql', icon: 'postgresql', label: 'PostgreSQL' },
       { id: 'sql', icon: 'database', label: 'SQL' },
       { id: 'firebase', icon: 'firebase', label: 'Firebase' },
     ],

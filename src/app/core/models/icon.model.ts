@@ -15,4 +15,7 @@ export type IconName =
   | 'linkedin'
   | 'sun'
   | 'moon'
-  | 'web';
+  | 'web'
+  | 'mysql'
+  | 'postgresql'
+  | 'python';
