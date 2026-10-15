@@ -13,7 +13,10 @@
   <p class="hero__tagline">{{ 'hero.tagline' | translate }}</p>
 
   <div class="hero__actions">
-    <a class="btn btn--outline" [href]="profile.cvUrl" download>{{ 'common.downloadCv' | translate }}</a>
+    <a class="btn btn--outline" [href]="'tel:' + profile.phone">
+  <app-icon name="phone" />
+  {{ profile.phone }}
+</a>
 
     @for (link of profile.social; track link.url) {
     <a class="btn btn--ghost" [href]="link.url" target="_blank" rel="noopener">

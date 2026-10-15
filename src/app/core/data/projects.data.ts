@@ -6,14 +6,14 @@ export const PROJECTS: Project[] = [
     imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=MediCitas+Panama',
     categories: ['java-backend', 'sql-db'],
     tech: ['Java 21', 'JavaFX', 'MySQL', 'MongoDB', 'JDBC'],
-    codeUrl: 'https://github.com/tu-usuario/medicitas-panama',
+    codeUrl: 'https://gitlab.com/rramses390/medicitaspanama',
   },
   {
     id: 'payroll',
     imageUrl: 'https://placehold.co/600x340/1a1a1a/4fc3f7?text=Payroll+BIT+A+BIT',
     categories: ['java-backend', 'sql-db'],
     tech: ['Java', 'PostgreSQL', 'JDBC', 'Swing'],
-    codeUrl: 'https://gitlab.com/tu-usuario/payroll-bit-a-bit',
+    codeUrl: 'https://gitlab.com/rramses390/payroll-system-appbitabit',
   },
   {
     id: 'portfolio',

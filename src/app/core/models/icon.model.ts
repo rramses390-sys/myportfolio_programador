@@ -18,4 +18,5 @@ export type IconName =
   | 'web'
   | 'mysql'
   | 'postgresql'
-  | 'python';
+  | 'python'
+  | 'phone';

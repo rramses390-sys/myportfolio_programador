@@ -81,5 +81,16 @@
     gap: 0.75rem;
     justify-content: center;
     margin-top: 1.5rem;
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  app-icon {
+    width: 16px;
+    height: 16px;
   }
 }
+  }
