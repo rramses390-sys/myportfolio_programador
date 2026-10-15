@@ -77,7 +77,8 @@
   "contact": {
     "title": "Ponte en contacto",
     "eyebrow": "Trabajemos juntos.",
-    "emailLabel": "Escríbeme"
+    "emailLabel": "Escríbeme",
+    "phoneLabel": "Teléfono"
   },
   "footer": {
     "cta": "Trabajemos Juntos -",

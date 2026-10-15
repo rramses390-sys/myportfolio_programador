@@ -1,6 +1,13 @@
 <header class="header">
   <div class="header__bar">
-    <a class="header__logo" href="#inicio">Ramses</a>
+    @if (showIdentity() && profileService.profile(); as profile) {
+      <a class="header__identity" href="#inicio">
+        <img [src]="profile.avatarUrl" [alt]="profile.name" />
+        <span>{{ profile.name }}</span>
+      </a>
+    } @else {
+      <a class="header__logo" href="#inicio">Ramses</a>
+    }
 
     <button
       class="header__toggle"

@@ -5,21 +5,15 @@
   </header>
 
   @if (profileService.profile(); as profile) {
-  <a class="contact__pill" [href]="'mailto:' + profile.email">
-    <span class="contact__pill-icon"><app-icon name="mail" /></span>
-    {{ profile.email }}
-  </a>
-  @if (profileService.profile(); as profile) {
-  <div class="contact__pills">
-    <a class="contact__pill" [href]="'mailto:' + profile.email">
-      <span class="contact__pill-icon"><app-icon name="mail" /></span>
-      {{ profile.email }}
-    </a>
-    <a class="contact__pill" [href]="'tel:' + profile.phone">
-      <span class="contact__pill-icon"><app-icon name="phone" /></span>
-      {{ profile.phone }}
-    </a>
-  </div>
-}
+    <div class="contact__pills">
+      <a class="contact__pill" [href]="'mailto:' + profile.email">
+        <span class="contact__pill-icon"><app-icon name="mail" /></span>
+        {{ profile.email }}
+      </a>
+      <a class="contact__pill" [href]="'tel:' + profile.phone">
+        <span class="contact__pill-icon"><app-icon name="phone" /></span>
+        {{ 'contact.phoneLabel' | translate }}
+      </a>
+    </div>
   }
 </section>
