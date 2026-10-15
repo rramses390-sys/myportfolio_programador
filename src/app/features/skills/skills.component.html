@@ -1,0 +1,26 @@
+<section class="skills" id="habilidades">
+  <header class="skills__header">
+    <h2 class="skills__title">{{ 'skills.title' | translate }}</h2>
+    <p class="skills__eyebrow">{{ 'skills.eyebrow' | translate }}</p>
+  </header>
+
+  <div class="skills__grid">
+    @for (category of skillsService.categories(); track category.id) {
+    <article class="skill-card">
+      <header class="skill-card__header">
+        <span class="skill-card__icon"><app-icon [name]="category.icon" /></span>
+        <h3>{{ 'skills.categories.' + category.id | translate }}</h3>
+      </header>
+
+      <div class="skill-card__tiles">
+        @for (skill of category.skills; track skill.id) {
+        <div class="skill-tile">
+          <span class="skill-tile__icon"><app-icon [name]="skill.icon" /></span>
+          <span class="skill-tile__label">{{ skill.label }}</span>
+        </div>
+        }
+      </div>
+    </article>
+    }
+  </div>
+</section>

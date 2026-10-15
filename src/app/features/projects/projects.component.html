@@ -1,0 +1,55 @@
+<section class="projects" id="proyectos">
+  <header class="projects__header">
+    <h2 class="projects__title">{{ 'projects.title' | translate }}</h2>
+    <p class="projects__eyebrow">{{ 'projects.eyebrow' | translate }}</p>
+  </header>
+
+  <div class="projects__filters">
+    @for (filter of filters; track filter) {
+    <button type="button" class="chip" [class.chip--active]="activeFilter() === filter" (click)="setFilter(filter)">
+      {{ 'projects.filters.' + filter | translate }}
+    </button>
+    }
+  </div>
+
+  <div class="projects__grid">
+    @for (project of filteredProjects(); track project.id) {
+    <article class="project-card">
+      <img class="project-card__image" [src]="project.imageUrl"
+        [alt]="'projects.items.' + project.id + '.title' | translate" />
+
+      <div class="project-card__body">
+        <h3 class="project-card__title">
+          {{ 'projects.items.' + project.id + '.title' | translate }}
+        </h3>
+        <p class="project-card__description">
+          {{ 'projects.items.' + project.id + '.description' | translate }}
+        </p>
+
+        <div class="project-card__tech">
+          @for (tech of project.tech; track tech) {
+          <span class="tag">{{ tech }}</span>
+          }
+        </div>
+
+        <div class="project-card__links">
+          @if (project.repos) {
+          @for (repo of project.repos; track repo.url) {
+          <a [href]="repo.url" target="_blank" rel="noopener">{{ repo.label }}</a>
+          }
+          } @else if (project.codeUrl) {
+          <a [href]="project.codeUrl" target="_blank" rel="noopener">
+            {{ 'projects.code' | translate }}
+          </a>
+          }
+          @if (project.demoUrl) {
+          <a [href]="project.demoUrl" target="_blank" rel="noopener">
+            {{ 'projects.demo' | translate }}
+          </a>
+          }
+        </div>
+      </div>
+    </article>
+    }
+  </div>
+</section>

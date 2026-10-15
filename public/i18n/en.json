@@ -1,0 +1,94 @@
+{
+  "common": {
+    "downloadCv": "Download CV"
+  },
+  "hero": {
+    "role": "Software Developer · Java & Management Systems",
+    "tagline": "Fullstack software developer and technical analyst with experience in system design, databases, and support. Analytical, proactive, and results-driven."
+  },
+  "about": {
+    "title": "About Me",
+    "eyebrow": "Get to know me",
+    "bio": "I am a Software Development student passionate about building systems that solve real-world problems. I specialize in backend development with Java and relational databases — writing raw SQL without ORMs because I believe understanding the fundamentals matters. I am looking for a place where I can contribute from day one and keep growing as part of a team."
+  },
+  "projects": {
+    "title": "Projects",
+    "eyebrow": "Some of my work",
+    "code": "Code",
+    "demo": "Demo",
+    "filters": {
+      "all": "All",
+      "java-backend": "Java / Backend",
+      "sql-db": "SQL / DB",
+      "frontend": "Frontend",
+      "fullstack": "Fullstack"
+    },
+    "items": {
+      "medicitas": {
+        "title": "MediCitas Panamá",
+        "description": "Academic clinical management and telemedicine system in Java, featuring a JavaFX desktop interface, MySQL and MongoDB databases, and role-based access control."
+      },
+      "payroll": {
+        "title": "Payroll BIT A BIT",
+        "description": "Team-developed payroll system featuring a layered architecture in Java, pure JDBC (no ORM) over PostgreSQL, and a Swing desktop interface."
+      },
+      "portfolio": {
+        "title": "Web Portfolio — Angular",
+        "description": "This very portfolio: standalone Angular with signals, dynamic internationalization in Spanish and English, and deployment on Firebase Hosting."
+      },
+      "pymecloud": {
+        "title": "PymeCloud",
+        "description": "Management system for micro and small businesses, featuring a Java Spring Boot backend, PostgreSQL database, and an Angular + Ionic frontend app designed for web and mobile."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "eyebrow": "Languages & Tools",
+    "categories": {
+      "backend": "Backend",
+      "databases": "Databases",
+      "frontend-tools": "Frontend & Tools"
+    }
+  },
+  "experience": {
+    "title": "Experience & Education",
+    "eyebrow": "My path so far",
+    "experienceHeading": "Experience",
+    "educationHeading": "Education",
+    "items": {
+      "toledano": {
+        "badge": "4+ years",
+        "role": "Operations Supervisor",
+        "description": "Over 4 years supervising operations and leading teams; I now apply that leadership experience to software development."
+      },
+      "academic-projects": {
+        "badge": "Projects",
+        "role": "Projects (Java)",
+        "description": "Payroll and clinical management systems built with layered architecture in Java, JDBC without ORM, and relational databases."
+      },
+      "up": {
+        "badge": "In progress",
+        "role": "Systems Engineering (In progress)",
+        "description": "Degree in progress; in parallel, I develop Java projects using relational databases."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "eyebrow": "Let's work together.",
+    "emailLabel": "Email me",
+    "phoneLabel": "Phone"
+  },
+  "footer": {
+    "cta": "Let's Work Together -",
+    "rights": "© 2026 all rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "resume": "Resume"
+  }
+}

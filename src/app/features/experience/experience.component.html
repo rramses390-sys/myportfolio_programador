@@ -1,0 +1,52 @@
+<section class="experience" id="experiencia">
+  <header class="experience__header">
+    <h2 class="experience__title">{{ 'experience.title' | translate }}</h2>
+    <p class="experience__eyebrow">{{ 'experience.eyebrow' | translate }}</p>
+  </header>
+
+  <div class="experience__columns">
+    <div class="timeline-column">
+      <div class="timeline-column__heading">
+        <span class="timeline-column__icon"><app-icon name="briefcase" /></span>
+        <h3>{{ 'experience.experienceHeading' | translate }}</h3>
+      </div>
+
+      @for (item of timelineService.experience(); track item.id; let last = $last) {
+      <div class="timeline-item" [class.timeline-item--last]="last">
+        <span class="timeline-item__dot" [class.timeline-item__dot--accent]="item.highlighted"></span>
+
+        <div class="timeline-item__content">
+          <span class="badge">{{ 'experience.items.' + item.id + '.badge' | translate }}</span>
+          <h4>{{ 'experience.items.' + item.id + '.role' | translate }}</h4>
+          <p class="timeline-item__org">{{ item.organization }}</p>
+          <p class="timeline-item__description">
+            {{ 'experience.items.' + item.id + '.description' | translate }}
+          </p>
+        </div>
+      </div>
+      }
+    </div>
+
+    <div class="timeline-column">
+      <div class="timeline-column__heading">
+        <span class="timeline-column__icon"><app-icon name="book" /></span>
+        <h3>{{ 'experience.educationHeading' | translate }}</h3>
+      </div>
+
+      @for (item of timelineService.education(); track item.id; let last = $last) {
+      <div class="timeline-item" [class.timeline-item--last]="last">
+        <span class="timeline-item__dot" [class.timeline-item__dot--accent]="item.highlighted"></span>
+
+        <div class="timeline-item__content">
+          <span class="badge">{{ 'experience.items.' + item.id + '.badge' | translate }}</span>
+          <h4>{{ 'experience.items.' + item.id + '.role' | translate }}</h4>
+          <p class="timeline-item__org">{{ item.organization }}</p>
+          <p class="timeline-item__description">
+            {{ 'experience.items.' + item.id + '.description' | translate }}
+          </p>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>

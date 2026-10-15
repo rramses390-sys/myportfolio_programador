@@ -1,0 +1,94 @@
+{
+  "common": {
+    "downloadCv": "Descargar CV"
+  },
+  "hero": {
+    "role": "Desarrollador de Software · Java & Sistemas de Gestión",
+    "tagline": "Desarrollador de software fullstack y analista técnico con experiencia en diseño de sistemas, bases de datos y soporte. Enfoque analítico, proactivo y orientado a resultados."
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "eyebrow": "Conóceme",
+    "bio": "Soy estudiante de Desarrollo de Software apasionado por construir sistemas que resuelvan problemas reales. Me especializo en backend con Java y bases de datos relacionales - escribo SQL a mano, sin ORMs, porque creo que entender los cimientos importa. Busco donde pueda aportar desde el primer día y seguir creciendo en equipo."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "eyebrow": "Algunos de mis trabajos",
+    "code": "Código",
+    "demo": "Demo",
+    "filters": {
+      "all": "Todos",
+      "java-backend": "Java / Backend",
+      "sql-db": "SQL / BD",
+      "frontend": "Frontend",
+      "fullstack": "Fullstack"
+    },
+    "items": {
+      "medicitas": {
+        "title": "MediCitas Panamá",
+        "description": "Sistema académico de gestión clínica y telemedicina en Java, con JavaFX para la interfaz de escritorio, MySQL y MongoDB, y control de acceso por roles."
+      },
+      "payroll": {
+        "title": "Payroll BIT A BIT",
+        "description": "Sistema de nómina desarrollado en equipo, con arquitectura por capas en Java, JDBC puro (sin ORM) sobre PostgreSQL, e interfaz de escritorio con Swing."
+      },
+      "portfolio": {
+        "title": "Portafolio Web — Angular",
+        "description": "Este mismo portafolio: Angular standalone con signals, internacionalización dinámica en español e inglés, y despliegue en Firebase Hosting."
+      },
+      "pymecloud": {
+        "title": "PymeCloud",
+        "description": "Sistema de gestión para micro y pequeñas empresas, con backend en Java Spring Boot, base de datos PostgreSQL, y una app frontend en Angular + Ionic pensada para web y móvil."
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "eyebrow": "Languages & Tools",
+    "categories": {
+      "backend": "Backend",
+      "databases": "Bases de Datos",
+      "frontend-tools": "Frontend & Tools"
+    }
+  },
+  "experience": {
+    "title": "Experiencia & Formación",
+    "eyebrow": "Mi camino hasta aquí",
+    "experienceHeading": "Experiencia",
+    "educationHeading": "Formación",
+    "items": {
+      "toledano": {
+        "badge": "4+ años",
+        "role": "Supervisor Operativo",
+        "description": "Más de 4 años supervisando operaciones y liderando equipos; esa experiencia de liderazgo hoy la aplico al desarrollo de software."
+      },
+      "academic-projects": {
+        "badge": "Proyectos",
+        "role": "Proyectos (Java)",
+        "description": "Sistemas de nómina y de gestión clínica con arquitectura por capas en Java, JDBC sin ORM y bases de datos relacionales."
+      },
+      "up": {
+        "badge": "En curso",
+        "role": "Ingeniería en Sistemas (en curso)",
+        "description": "Carrera en curso; en paralelo desarrollo proyectos en Java con bases de datos relacionales."
+      }
+    }
+  },
+  "contact": {
+    "title": "Ponte en contacto",
+    "eyebrow": "Trabajemos juntos.",
+    "emailLabel": "Escríbeme",
+    "phoneLabel": "Teléfono"
+  },
+  "footer": {
+    "cta": "Trabajemos Juntos -",
+    "rights": "© 2026 todos los derechos reservados."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Sobre MI",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "resume": "Resumen"
+  }
+}

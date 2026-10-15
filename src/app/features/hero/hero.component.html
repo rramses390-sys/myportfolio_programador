@@ -1,0 +1,27 @@
+<section class="hero" id="inicio">
+  <div class="hero__background" aria-hidden="true">
+    <span class="blob--a"></span>
+    <span class="blob--b"></span>
+    <span class="blob--c"></span>
+  </div>
+
+  @if (profileService.profile(); as profile) {
+    <img class="hero__avatar" [src]="profile.avatarUrl" [alt]="profile.name" />
+    <h1 class="hero__name">{{ profile.name }}</h1>
+    <p class="hero__role">{{ 'hero.role' | translate }}</p>
+    <p class="hero__tagline">{{ 'hero.tagline' | translate }}</p>
+
+    <div class="hero__actions">
+      <a class="btn btn--outline" [href]="'tel:' + profile.phone">
+        <app-icon name="phone" />
+        {{ 'contact.phoneLabel' | translate }}
+      </a>
+
+      @for (link of profile.social; track link.url) {
+        <a class="btn btn--ghost" [href]="link.url" target="_blank" rel="noopener">
+          {{ link.label }}
+        </a>
+      }
+    </div>
+  }
+</section>
