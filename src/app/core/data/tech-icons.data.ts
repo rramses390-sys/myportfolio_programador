@@ -1,0 +1,17 @@
+export const TECH_ICONS: Record<string, string> = {
+  'Java 17': 'java',
+  'Java 21': 'java',
+  'Java': 'java',
+  'JavaFX': 'java',
+  'JDBC': 'java',
+  'Swing': 'java',
+  'Spring Boot': 'spring',
+  'MySQL': 'mysql',
+  'MongoDB': 'mongodb',
+  'PostgreSQL': 'postgresql',
+  'Angular': 'angular',
+  'Ionic': 'ionic',
+  'TypeScript': 'typescript',
+  'SCSS': 'sass',
+  'Firebase Hosting': 'firebase',
+};
