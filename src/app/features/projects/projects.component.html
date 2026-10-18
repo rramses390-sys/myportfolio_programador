@@ -15,8 +15,6 @@
   <div class="projects__grid">
     @for (project of filteredProjects(); track project.id) {
     <article class="project-card">
-      <img class="project-card__image" [src]="project.imageUrl"
-        [alt]="'projects.items.' + project.id + '.title' | translate" />
 
       <div class="project-card__body">
         <h3 class="project-card__title">
@@ -28,7 +26,14 @@
 
         <div class="project-card__tech">
           @for (tech of project.tech; track tech) {
-          <span class="tag">{{ tech }}</span>
+          <span class="tag">
+            @if (techIcon(tech); as icon) {
+            <img class="tag__icon"
+              [src]="'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/' + icon + '/' + icon + '-original.svg'"
+              alt="" />
+            }
+            {{ tech }}
+          </span>
           }
         </div>
 

@@ -7,7 +7,6 @@ export interface ProjectRepo {
 
 export interface Project {
   id: string;
-  imageUrl: string;
   categories: ProjectCategory[];
   tech: string[];
   codeUrl?: string;

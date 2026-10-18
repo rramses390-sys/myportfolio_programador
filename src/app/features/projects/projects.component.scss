@@ -72,7 +72,7 @@
   }
 
   &__body {
-    padding: 1.25rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
@@ -111,9 +111,19 @@
 }
 
 .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   background: color-mix(in srgb, var(--accent) 15%, transparent);
   color: var(--text-primary);
   font-size: 0.75rem;
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
+}
+
+.tag__icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  flex-shrink: 0;
 }

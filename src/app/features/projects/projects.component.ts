@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { TECH_ICONS } from '../../core/data/tech-icons.data';
 import { ProjectCategory } from '../../core/models/project.model';
 import { ProjectsService } from '../../core/services/projects.service';
 
@@ -27,5 +28,9 @@ export class ProjectsComponent {
 
   setFilter(filter: FilterOption) {
     this.activeFilter.set(filter);
+  }
+
+  techIcon(tech: string): string | null {
+    return TECH_ICONS[tech] ?? null;
   }
 }
