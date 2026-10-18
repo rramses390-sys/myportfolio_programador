@@ -17,11 +17,12 @@
   {{ 'contact.phoneLabel' | translate }}
 </a>
 
-      @for (link of profile.social; track link.url) {
-        <a class="btn btn--ghost" [href]="link.url" target="_blank" rel="noopener">
-          {{ link.label }}
-        </a>
-      }
+     @for (link of profile.social; track link.url) {
+  <a class="btn btn--ghost" [href]="link.url" target="_blank" rel="noopener">
+    <app-icon [name]="link.icon" />
+    {{ link.label }}
+  </a>
+}
     </div>
   }
 </section>

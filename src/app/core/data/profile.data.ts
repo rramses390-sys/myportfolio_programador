@@ -7,7 +7,7 @@ export const PROFILE: Profile = {
   phone: '+507 6275-3756',
   email: 'rramses390@gmail.com',
   social: [
-    { label: 'GitLab', url: 'https://gitlab.com/rramses390', icon: 'github' },
+    { label: 'GitLab', url: 'https://gitlab.com/rramses390', icon: 'gitlab' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ramses-rodriguez-147202197', icon: 'linkedin' },
   ],
 };
