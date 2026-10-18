@@ -1,7 +1,9 @@
+import { IconName } from './icon.model';
+
 export interface SocialLink {
   label: string;
   url: string;
-  icon: 'github' | 'linkedin';
+  icon: IconName;
 }
 
 export interface Profile {
