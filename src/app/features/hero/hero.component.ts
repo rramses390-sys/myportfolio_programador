@@ -13,4 +13,8 @@ import { IconComponent } from '../../shared/icon/icon.component';
 })
 export class HeroComponent {
   profileService = inject(ProfileService);
+
+   whatsappUrl(phone: string): string {
+    return 'https://wa.me/' + phone.replace(/\D/g, '');
+  }
 }

@@ -10,10 +10,10 @@
         <span class="contact__pill-icon"><app-icon name="mail" /></span>
         {{ profile.email }}
       </a>
-      <a class="contact__pill" [href]="'tel:' + profile.phone">
-        <span class="contact__pill-icon"><app-icon name="phone" /></span>
-        {{ 'contact.phoneLabel' | translate }}
-      </a>
+      <a class="contact__pill" [href]="whatsappUrl(profile.phone)" target="_blank" rel="noopener">
+  <span class="contact__pill-icon"><app-icon name="whatsapp" /></span>
+  {{ 'contact.phoneLabel' | translate }}
+</a>
     </div>
   }
 </section>
